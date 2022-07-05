@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #3a3a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://s1.1zoom.me/big3/126/Fireworks_Christmas_2017_528318_5760x3840.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  background: #222222;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px black;
+}
+.container__title {
+  color: #dfba63;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.countdown {
+  display: flex;
+  column-gap: 2rem;
+}
+.countdown__numbers {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+}
+.countdown__text {
+  display: block;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
